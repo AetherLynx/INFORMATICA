@@ -6,40 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cera-round-pro" rel="stylesheet">
+    <link rel="icon" href="files/star.png" type="image/png">
     <title>Proyecto Informática</title>
 </head>
 
 <body>
-    <nav>
+    <nav style="border-bottom-color: #e3d0ff;">
         <ul>
-            <li><a style="color: #efecff;" href="main.html">Inicio</a></li>
-            <li>Objetivos</li>
-            <li>Matemáticas</li>
-            <li>Informática</li>
-            <li>Química</li>
-            <li>Física</li>
+            <li style="background-color: #e3d0ff"><a style="color: #2d2d2d;" href="index.html">Inicio</a></li>
+            <li><a style="color: #efecff;" href="math.html">Matemáticas</a></li>
+            <li><a style="color: #efecff;" href="tech.html">Informática</a></li>
+            <li><a style="color: #efecff;" href="chem.html">Química y Física</a></li>
+            <li><a style="color: #a2ffa0;"
+                    href="https://github.com/AetherLynx/INFORMATICA/archive/refs/heads/main.zip">Codigo Fuente</a></li>
         </ul>
     </nav>
     <div style="margin-top: 40px;"></div>
     <h3>Crisis alimentaria, una realidad que se puede cambiar</h3>
     <div class="amoled-cont">
-        <p>Este sitio web llevará a cabo todo lo necesario con el núcleo de ciencia y tecnología.<br><br>
-            Este proyecto lleva a cabo la crisis alimentaria que se presenta en el país, se abarcan temas para<br>
-            mejorar la situación como los cultivos hidropónicos, problemáticas nacionales en pueblos de bajos<br>
-            recursos y como podemos hacer un cambio al respecto.
-        </p>
         <p>
-        <h3>Contenidos breves de las materias</h3>
-        <div class="amoled-cont">
-            <p style="text-align: left;">Química: Cultivos hidropónicos<br>Física: Caida libre y MRU<br>Matemáticas:
-            </p>
-        </div>
+            El proyecto aborda la crisis alimentaria, un problema global que afecta a millones de personas en todo el
+            mundo.<br><br>Se
+            busca analizar las causas de la escasez de alimentos, la malnutrición y el hambre, y proponer soluciones
+            sostenibles
+            para garantizar la seguridad alimentaria y nutricional de la población.<br><br>El proyecto se enfoca en la
+            promoción de
+            prácticas agrícolas y alimentarias sostenibles, el acceso equitativo a los recursos y la educación en
+            materia de
+            nutrición.<br><br>El objetivo final es contribuir a la construcción de un mundo más justo y equitativo,
+            donde todos
+            tengan
+            acceso a alimentos nutritivos y suficientes para llevar una vida saludable.
         </p>
     </div>
-    <img src="files/img1.jpg" width="50%" height="50%" style="border-radius: 20px;">
+    <h3>Objetivos</h3>
+    <div class="amoled-cont">
+        <p style="text-align: left">● Informar a la población sobre la crisis alimentaria global, sus causas, impactos y
+            soluciones propuestas, a
+            través de la
+            difusión de información clara, precisa y accesible.
+            <br><br>
+            ● Generar conciencia y fomentar el compromiso de la sociedad civil, instituciones y gobiernos para abordar
+            la
+            crisis
+            alimentaria, mediante la promoción de una participación activa y el desarrollo de propuestas y soluciones
+            sostenibles y
+            efectivas.
+        </p>
+    </div>
+    <div>
+        <icont>
+            <img style="border-radius: 15px;" src="files/img1.jpg" width="50%" height="50%">
+            <img style="border-radius: 15px;" src="files/img2.jpg" width="42%" height="50%">
+        </icont>
+    </div>
+    <div class="progress-bar" style="background-color: #e3d0ff">Introducción a la problemática del proyecto: Crisis Alimentaria.</div>
+    <script>
+        window.onscroll = function () {
+            var windowHeight = window.innerHeight;
+            var documentHeight = document.documentElement.scrollHeight;
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            var progress = scrollTop / (documentHeight - windowHeight) * 100;
+            document.querySelector('.progress-bar').style.width = progress + '%';
+        }
+    </script>
 </body>
 
 </html>

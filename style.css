@@ -7,11 +7,12 @@
     overflow-x: hidden
 }
 
+@import url('https://fonts.cdnfonts.com/css/cera-round-pro');
 
 body {
     color: #fff;
     background-color: #191919;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cera Round Pro', sans-serif;
 
     display: flex;
     align-items: center;
@@ -24,6 +25,33 @@ body {
     border-color: #929292;
     border-style: solid;
     border-width: 2px;
+}
+
+p {
+    max-width: 800px;
+    line-height: 24px;
+    text-align: left;
+}
+
+icont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+icont2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    border-radius: 15px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .amoled-cont {
@@ -44,7 +72,32 @@ h6 {
     background-color: #1f1f1f;
     border-radius: 15px;
     padding: 20px 20px;
+    width: 100vh;
     justify-content: center;
+    text-align: center;
+}
+
+sbar {
+    background-color: #2b2a2e;
+    border-radius: 15px;
+    padding: 20px 20px;
+    width: auto;
+    max-width: 180vh;
+    justify-content: center;
+    text-align: center;
+    text-align: left;
+}
+
+cblock {
+    background-color: #0c0c0e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
 }
 
 nav {
@@ -91,4 +144,42 @@ nav a {
 
 nav a:hover {
     color: #fff;
+}
+
+/* Estilizar la barra de progreso */
+.progress-bar {
+    overflow:hidden;
+    color: unset;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:5px 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    max-width: 1320px;
+    transition: height 0.2s ease;
+    background-color: #000;
+    border-color: #171717;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.progress-bar:hover {
+    height: 50px;
+    color: #000;
+}
+
+hr {
+    width: 100%;
+    left: 10px;
+    right: 10px;
+    max-height: 1px;
+    border-color: unset;
+    background-color: #2b2a2e;
+    border-radius: 5px;
 }

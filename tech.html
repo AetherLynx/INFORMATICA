@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cera-round-pro" rel="stylesheet">
+    <link rel="icon" href="files/star.png" type="image/png">
+    <title>Proyecto Informática</title>
+</head>
+
+<body>
+    <nav style="border-bottom-color: #ffd0d0;">
+        <ul>
+            <li><a style="color: #efecff;" href="index.html">Inicio</a></li>
+            <li><a style="color: #efecff;" href="math.html">Matemáticas</a></li>
+            <li style="background-color: #ffd0d0"><a style="color: #2d2d2d;" href="tech.html">Informática</a></li>
+            <li><a style="color: #efecff;" href="chem.html">Química y Física</a></li>
+            <li><a style="color: #a2ffa0;"
+                    href="https://github.com/AetherLynx/INFORMATICA/archive/refs/heads/main.zip">Codigo Fuente</a></li>
+        </ul>
+    </nav>
+    <div style="margin-top: 40px;"></div>
+    <h3>Informática, Tecnologías web</h3>
+    <sbar>
+        <b>OBJETIVO</b><br>
+        <p>Reconocer y aprender las metodologías para el uso de tecnologías web, aprovechandolas para combatir la crisis
+            alimentaria.</p>
+    </sbar>
+    <h3>Tecnologías web, HTML, CSS y JS</h3>
+    <div class="amoled-cont">
+        <p>En el área de informática se llevaron a cabo temas como la tecnología web, estas incluyen HTML5, CSS y JS,
+            estas tecnologías son lenguajes de programación que constituyen el codigo fuente de todas las páginas web en
+            el internet, las que usamos para navegar, consultar información, ver videos, imagenes, etc.<br><br>
+
+            Los lenguajes de programación más comunes son los siguientes:<br><br>
+
+            ● HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para crear páginas web. Se
+            utiliza para definir la estructura y el contenido de una página web, como el encabezado, el cuerpo, los
+            enlaces, las imágenes, los videos, los formularios, etc. HTML se compone de etiquetas que se utilizan para
+            describir la estructura y el contenido de la página web.<br><br>
+            ● CSS (Cascading Style Sheets) es un lenguaje de diseño utilizado para dar estilo y presentación a páginas
+            web creadas en HTML. CSS permite separar la presentación visual de una página web del contenido, lo que
+            permite un diseño más eficiente y flexible. Se utiliza para aplicar estilos visuales como el color, el
+            tamaño, el tipo de letra, el margen, el relleno, el fondo, la animación, etc.<br><br>
+            ● JS (JavaScript) es un lenguaje de programación utilizado para crear interactividad en las páginas web.
+            Permite añadir interacciones como efectos de desplazamiento, animaciones, validaciones de formularios y
+            otros comportamientos dinámicos en una página web. Además, se puede utilizar para acceder a datos, consumir
+            APIs y crear aplicaciones web más complejas.
+        </p>
+    </div>
+    <h3>Como usar estas tecnologias en la Crisis Alimentaria</h3>
+    <div class="amoled-cont">
+        <p style="text-align:left">
+            Estas tecnologías se pueden utilizar para abordar la crisis alimentaria de diferentes maneras.<br><br>Por
+            ejemplo,
+            HTML se puede utilizar para crear sitios web informativos sobre la crisis alimentaria y cómo abordarla, o
+            para crear aplicaciones web que ayuden a las personas a encontrar alimentos saludables y asequibles en su
+            área.<br><br>CSS se puede utilizar para diseñar interfaces de usuario atractivas y accesibles para estas
+            aplicaciones y sitios web, mientras que JS se puede utilizar para agregar interactividad y mejorar la
+            experiencia del usuario.<br><br>Además, estas tecnologías se pueden utilizar en sistemas de monitoreo y
+            control
+            de
+            cultivos hidropónicos, en la creación de plataformas de intercambio de alimentos y en la automatización de
+            procesos de producción de alimentos.<br><br>En resumen, HTML, CSS y JS pueden ser herramientas poderosas
+            para abordar la crisis alimentaria desde diferentes ángulos y en diferentes niveles.
+        </p>
+    </div>
+    <div>
+        <icont>
+            <img style="border-radius: 15px;" src="files/img5.jpeg" width="50%" height="50%">
+            <img style="border-radius: 15px;" src="files/img6.png" width="42%" height="50%">
+        </icont>
+    </div>
+    <div class="progress-bar" style="background-color: #ffd0d0">Informática: Tecnologías para el desarollo web interactivo.</div>
+    <script>
+        window.onscroll = function () {
+            var windowHeight = window.innerHeight;
+            var documentHeight = document.documentElement.scrollHeight;
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            var progress = scrollTop / (documentHeight - windowHeight) * 100;
+            document.querySelector('.progress-bar').style.width = progress + '%';
+        }
+    </script>
+</body>
+
+</html>
